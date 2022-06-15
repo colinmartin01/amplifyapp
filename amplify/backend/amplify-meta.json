@@ -1,0 +1,41 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-newdev-122544-authRole",
+      "UnauthRoleArn": "arn:aws:iam::368759000782:role/amplify-amplifyapp-newdev-122544-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::368759000782:role/amplify-amplifyapp-newdev-122544-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplifyapp-newdev-122544-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-newdev-122544-unauthRole",
+      "StackName": "amplify-amplifyapp-newdev-122544",
+      "StackId": "arn:aws:cloudformation:us-west-2:368759000782:stack/amplify-amplifyapp-newdev-122544/a9d7b770-ebfe-11ec-b560-0a5f0e112a7b",
+      "AmplifyAppId": "d2t5vbdrzzysse"
+    }
+  },
+  "auth": {
+    "amplifyappe97b6444": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "staging": {
+    "configLevel": "amplifyAdmin"
+  },
+  "master": {
+    "configLevel": "amplifyAdmin"
+  },
+  "newdev": {
+    "configLevel": "amplifyAdmin"
+  }
+}
