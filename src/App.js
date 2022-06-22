@@ -20,10 +20,10 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import School from "@material-ui/icons/School";
 
 // core components
-import UserHeader from "components/Headers/UserHeader.js";
+import UserHeader from "./components/Headers/UserHeader.js";
 
-import componentStyles from "assets/theme/views/admin/profile.js";
-import boxShadows from "assets/theme/box-shadow.js";
+import componentStyles from "./assets/theme/views/admin/profile.js";
+import boxShadows from "./assets/theme/box-shadow.js";
 
 const useStyles = makeStyles(componentStyles);
 
